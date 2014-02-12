@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/adamvr/MQTT.js.git"
+    "url": "git://github.com/TigerZhang/MQTT.js.git"
   },
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,8 @@
   "dependencies": {
     "readable-stream": "~1.0.2",
     "bops": "~0.1.1",
-      "bignum": "~0.6.2"
+      "bignum": "~0.6.2",
+      "druuid": "git+https://github.com/TigerZhang/druuid.git#master"
   },
   "devDependencies": {
     "mocha": "*",
